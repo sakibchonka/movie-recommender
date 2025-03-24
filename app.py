@@ -1,7 +1,7 @@
 import pickle
 import streamlit as st
 import requests
-
+#test
 
 def fetch_poster(movie_id):
     url = 'https://api.themoviedb.org/3/movie/{}?api_key=1d9d3bf949730339fae27ff846aecffc&language=en-US'.format(movie_id)
